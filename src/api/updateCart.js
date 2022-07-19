@@ -1,6 +1,5 @@
 export async function updateCart(cart) {
 
-    //TODO: always one request behind
     const cartItems = []
 
     cart.forEach((cartItem) => {
